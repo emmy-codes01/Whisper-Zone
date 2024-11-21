@@ -1,5 +1,11 @@
 import react from 'react'
 import '../styles/signin.css'
+import Illustration from '../images/illustrations/ill-1.png'
+import apple from '../images/apple.png'
+import google from '../images/google.png'
+import fb from '../images/facebook.png'
+import logo from '../images/logo.png'
+
 
 const SignIn = () => {
   return (
@@ -7,7 +13,7 @@ const SignIn = () => {
       <div className='Home flex m-10 justify-evenly items-center'>
         <div className='first-half ml-16'>
           <div className='logo flex items-center font-bold gap-1'>
-            <img src="./src/images/logo.png" alt="logo" className='w-6'/> <h1 className='text-sm'> Whisper Zone</h1>
+            <img src={logo} alt="logo" className='w-6'/> <h1 className='text-sm'> Whisper Zone</h1>
           </div>
           <div className='hero-section mt-6'>
             <h4 className='font-medium text-3xl'>Hey There, <br /> Start sending Anonymous <br /> messages here!</h4>
@@ -22,9 +28,9 @@ const SignIn = () => {
           <p className='text-sm opacity-50 text-center mt-8'>OR</p>
 
           <div className='sign-in-with mt-8 flex flex-col gap-4'>
-            <button type="submit" className='text-center border-2 text-sm border-grey-800 text-black rounded-full p-3 w-96 flex justify-center gap-3'> <img src="./src/images/google.png" alt="google" className='w-5'/> Sign in with Google</button>
-            <button type="submit" className='text-center border-2 text-sm border-grey-800 text-black rounded-full p-3 w-96 flex justify-center gap-3'> <img src="./src/images/apple.png" alt="apple" className='w-5'/>  Sign in with Apple</button>
-            <button type="submit" className='text-center border-2 text-sm border-grey-800 text-black rounded-full p-3 w-96 flex justify-center gap-3'> <img src="./src/images/facebook.png" alt="facebook" className='w-5' /> Sign in with Facebook</button>
+            <button type="submit" className='text-center border-2 text-sm border-grey-800 text-black rounded-full p-3 w-96 flex justify-center gap-3'> <img src={google} alt="google" className='w-5'/> Sign in with Google</button>
+            <button type="submit" className='text-center border-2 text-sm border-grey-800 text-black rounded-full p-3 w-96 flex justify-center gap-3'> <img src={apple} alt="apple" className='w-5'/>  Sign in with Apple</button>
+            <button type="submit" className='text-center border-2 text-sm border-grey-800 text-black rounded-full p-3 w-96 flex justify-center gap-3'> <img src={fb} alt="facebook" className='w-5' /> Sign in with Facebook</button>
           </div>
           <div className="flex justify-center gap-1 text-xs items-center mt-7">
             <p className=" text-black-200 opacity-50" >Don't have an acount?</p>
@@ -34,7 +40,7 @@ const SignIn = () => {
        
 
         <div className='second-half bg-black rounded-3xl p-20 pl-16 pr-16'>
-            <img src="./src/images/illustrations/Partnership in security and safeguarding.png"  className='ill-1' alt="illustration01" />
+            <img src={Illustration}  className='ill-1' alt="illustration01" />
             </div>
             </div>
     </div>

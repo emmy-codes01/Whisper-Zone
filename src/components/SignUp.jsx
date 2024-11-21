@@ -3,6 +3,8 @@ import LockRoundedIcon from "@mui/icons-material/LockRounded";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import { useNavigate } from 'react-router-dom';
 import '../styles/signup.css'
+import vectorImage from '../images/illustrations/Vector.png'
+import logo from '../images/logo.png'
 
 
 
@@ -16,6 +18,7 @@ const SignUp = () => {
 
   return (
     <>
+      
       <div className='Home flex m-10 justify-evenly items-center'>
         <div className='first-half ml-16'>
           <div className='logo flex items-center font-bold gap-1'>
@@ -67,7 +70,7 @@ const SignUp = () => {
 
 
         <div className='second-half bg-black rounded-3xl p-20 pl-16 pr-16'>
-          <img src="./src/images/illustrations/Vector.png" className='ill-1' alt="illustration01" />
+          <img src={ vectorImage } className='ill-1' alt="illustration01" />
         </div>
       </div>
     </>
