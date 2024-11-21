@@ -1,0 +1,33 @@
+
+@media (max-width: 640px) {
+    .second-half {
+        display: none;
+    }
+    .first-half {
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .first-half input, .email-inputs button, .sign-in-with button{
+        width: 22rem;
+    }
+    .sign-in-with  {
+        width: 22rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .second-half {
+        display: none;
+    }
+  }
+  @media (max-width: 1024px) {
+    .second-half {
+        display: none;
+    }
+  }
+  @media (max-width: 1280px) {
+
+  }
+  @media (max-width: 1536px) {
+ 
+  }

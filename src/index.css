@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap'); */
+
+
+* {
+    scroll-behavior: smooth;
+}
+
+.ill-1 {
+    width: 460px;
+}
+
+.email-inputs input::placeholder {
+    padding-left: rem;
+    opacity: 50%;
+}
+
+.email-inputs input {
+    color: rgb(114, 114, 114);
+    padding-left: 3rem;
+}
+
+.email-inputs input:focus {
+    border: 1px solid grey;
+    outline: #b00303;
+    padding-left: 3rem;
+}
+
+
+/* .input-container {
+    position: relative;
+  }
+  
+  input {
+    font-family: "Font Awesome 5 Free", Arial, sans-serif; 
+    font-weight: 400; 
+    padding-left: 10px; 
+    font-size: 14px;
+    height: 36px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    width: 100%; 
+  } */
+
+
+  @media (max-width: 640px) {
+
+
+  }
+  @media (max-width: 768px) {
+
+  }
+  @media (max-width: 1024px) {
+
+  }
+  @media (max-width: 1280px) {
+
+  }
+  @media (max-width: 1536px) {
+ 
+  }
